@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+    background-color: red;
+}
+
+#content{
+    height: 30%;
+    max-height: 200px;
+    width: 60%;
+    max-width: 800px;
+    display: grid;
+    place-items: center;    
+}
+
+#content #titulo{
+    width: 80%;
+    height: 70%;
+    font-size: 20px;
+    background-color: #7E7E7E;
+    display: grid;
+    place-items: center;
+}
+
+#content #titulo h1{
+    color: white;
+}
+
+#content #btn{
+    background-color: white;
+    width: 30%;
+    height: 50%;
+}
+
+#content #btn #chgCor{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
